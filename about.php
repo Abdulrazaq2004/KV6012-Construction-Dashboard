@@ -52,7 +52,7 @@
                 <li style="margin-top:10px;"><strong>Apache 2.4</strong> : Web server</li>
                 <li style="margin-top:10px;"><strong>PHP 8.3</strong> : Server-side scripting language</li>
                 <li style="margin-top:10px;"><strong>MySQL 8.0</strong> : Database management system</li>
-		<li style="margin-top:10px;"><strong>Claude</strong> : debugign & enhancment (functions were enhanced with AI will be diclared in the comments)</li>
+		<li style="margin-top:10px;"><strong>CHAT_GPT</strong> : debugign & enhancment (functions were enhanced with AI will be diclared in the comments)</li>
             </ul>
         </section>
 

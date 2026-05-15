@@ -28,7 +28,10 @@ function getWeather($lat, $lng) {
  * Rules from the brief:
  * - Wind > 20mph + crane on site = do not use crane
  * - Heavy/very heavy/extreme rain + diggers or dumper trucks = works may be delayed
- */
+ * -$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ * - THIS FUNCTION WAS ENHANCED USING AI BECAUSE MINE LOOK TRASH 😱😱😱😱😱😱😱😱😱
+ * -$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ */ 
 function getWeatherRecommendations($weather, $resources) {
     $recommendations = [];
     

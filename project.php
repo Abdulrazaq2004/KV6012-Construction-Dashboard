@@ -166,7 +166,9 @@ $airForecast = getAirQualityForecast($lat, $lng);
             </div>
 
             <?php if ($forecast): ?>
+                  
                 <script>
+                
                 // Store forecast data as a JS variable so we can filter it by date
                 var forecastData = <?= json_encode($forecast['list']) ?>;
                 
@@ -251,6 +253,11 @@ $airForecast = getAirQualityForecast($lat, $lng);
 
             <?php if ($airForecast): ?>
                 <script>
+
+                // $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                // THIS SCRIPT WAS PARTLY ENHANCED USING AI BECAUSE MINE LOOK TRASH 😱😱😱😱😱😱😱😱😱
+                // $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
                 // Store air quality forecast data as JS variable
                 var airForecastData = <?= json_encode($airForecast['list']) ?>;
 
