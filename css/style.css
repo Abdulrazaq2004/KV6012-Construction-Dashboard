@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #1a1a2e;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    background: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ul li a {
+    text-decoration: none;
+    color: #1a1a2e;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+ul li a:hover {
+    color: #e94560;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a2e;
+    color: white;
+    margin-top: 40px;
+}
+
+.alert {
+    padding: 12px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    color: #856404;
+}
+
+.alert-safe {
+    background-color: #d4edda;
+    border-left: 5px solid #28a745;
+    color: #155724;
+}
+
+.weather-info {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.back-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #1a1a2e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-info, .resources, .map-section, 
+.weather-section, .airquality-section {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+header nav a:hover {
+    background-color: white;
+    color: #1a1a2e;
+}
+
+.forecast-section {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.forecast-section input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+
+/* Meet the team (me) */
+.team-section {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.team-member p.name {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #1a1a2e;
+}
+
+.team-member p.role {
+    color: #666;
+    font-size: 0.9em;
+}
