@@ -191,6 +191,10 @@ resource virtualMachine 'Microsoft.Compute/virtualMachines@2023-03-01' = {
 
 // Custom Script Extension - runs automatically after the VM is created
 // Installs Apache, PHP, MySQL, sets up security and deploys the website from GitHub
+
+// $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// THIS EXTENSION WAS ENHANCED USING AI 😱😱😱😱😱😱😱😱😱(IT IS NOT REQUIRED IN THE BRIF BUT IT IS NICE TO HAVE) 
+// $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 resource vmExtension 'Microsoft.Compute/virtualMachines/extensions@2023-03-01' = {
   name: 'setup-webserver'
   parent: virtualMachine
