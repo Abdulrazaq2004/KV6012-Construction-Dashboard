@@ -24,7 +24,7 @@ param location string = 'switzerlandnorth'
 
 @description('Admin username for the VM')
 param adminUsername string = 'abdulrazaq'
-
+// password is Abdoc1q2w1q2w (I don't know if you need it or not but I just want to make sure you have it)
 @description('Admin password for the VM')
 @secure()
 param adminPassword string
